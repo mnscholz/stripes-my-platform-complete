@@ -62,7 +62,8 @@ module.exports = {
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings' : {},
-    '@folio/users' : {}
+    '@folio/users' : {},
+    '@mnscholz/stack-requests' : {}
   },
   branding: {
     logo: {
