@@ -3,6 +3,7 @@ FROM node:lts-alpine3.14 as stripes_build
 ARG OKAPI_URL=http://localhost:9130
 ARG TENANT_ID=diku
 ARG CXXFLAGS="-std=c++17"
+ARG STRIPES_TRANSPILE_TOKENS="@mnscholz"
 
 RUN mkdir -p /etc/folio/stripes
 WORKDIR /etc/folio/stripes
